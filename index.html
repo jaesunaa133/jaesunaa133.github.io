@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的可爱小窝💖</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+
+        body {
+            background-color: #fff5f8;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* 页面容器 */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* 头部区域 */
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            background-color: #ffd6e0;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3);
+        }
+
+        header h1 {
+            color: #ff6b9d;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #ff8fab;
+            font-size: 1.2rem;
+        }
+
+        /* 通用卡片样式 */
+        .card {
+            background-color: white;
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(255, 182, 193, 0.2);
+        }
+
+        .card h2 {
+            color: #ff6b9d;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* 个人信息 */
+        .info-list {
+            list-style: none;
+        }
+
+        .info-list li {
+            padding: 0.5rem 0;
+            color: #666;
+        }
+
+        /* 链接按钮 */
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .link-btn {
+            background-color: #ffd6e0;
+            color: #ff6b9d;
+            padding: 0.7rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .link-btn:hover {
+            background-color: #ff6b9d;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        /* 页脚 */
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #ff8fab;
+            font-size: 0.9rem;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header>
+            <h1>欢迎来到我的小窝💖</h1>
+            <p>这里是属于我的可爱小天地~</p>
+        </header>
+
+        <!-- 关于我 -->
+        <section class="card">
+            <h2>🌸 关于我</h2>
+            <ul class="info-list">
+                <li>✨ 一个喜欢粉色和可爱事物的普通人</li>
+                <li>🎀 日常记录生活、分享小发现</li>
+                <li>🎧 爱好听歌、看番、摸鱼（不是）</li>
+            </ul>
+        </section>
+
+        <!-- 我的链接 -->
+        <section class="card">
+            <h2>🌷 找到我</h2>
+            <div class="links">
+                <a href="#" class="link-btn">GitHub</a>
+                <a href="#" class="link-btn">小红书</a>
+                <a href="#" class="link-btn">邮箱联系</a>
+            </div>
+        </section>
+
+        <!-- 页脚 -->
+        <footer>
+            <p>Made with 💖 by 你 | Powered by GitHub Pages</p>
+        </footer>
+    </div>
+</body>
+</html>
